@@ -1,0 +1,10 @@
+This will serve as the log file for this project
+------------------------------------------------
+12-9-2024:
+    - Looked into creating the database for the project
+    - Learning more about SQL and how it'll work, as well as how SQLite works and the constraints of
+      what it can and can't do
+    - Created the database and a few basic queries that will be used
+    - pip installed matplotlib
+    - setting up matplotlib to be able to use the database to create graphs
+

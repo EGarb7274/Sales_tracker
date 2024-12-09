@@ -1,0 +1,16 @@
+This will serve as notes thougout the project
+---------------------------------------------
+- Bigger picture: What type of GUI will be needed (mobile vs desktop(windows mac and linux)
+    - wxPython:
+        - Offers desktop support, but is more complex and better for larger projects
+        - Lacks support for mobile
+        - With the complexity, will add more the learning curve
+    - Kivy:
+        - Primaraly offers mobile support
+        - Much simplier to use and learn
+        - Lack of quality desktop support
+    - Might look to do a survey to see which one to focus first?
+        - I belive that most of the framework can be done first and I can select which I want to use at a later date
+- Need to create a database that will last even with the program being closed
+    - Might start with SQLite and then move over to postgresql when needed
+
