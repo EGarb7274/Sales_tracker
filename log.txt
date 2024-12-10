@@ -7,4 +7,14 @@ This will serve as the log file for this project
     - Created the database and a few basic queries that will be used
     - pip installed matplotlib
     - setting up matplotlib to be able to use the database to create graphs
+12-10-2024
+    - Might add a watch class, seperate from the queries class
+        - Still on the fence with this one, not sure how much one would be needed
+          need too look at what I doing in the API scaper to see what that returns
+    - Added a graph class that will be able to output various graphs based on what the user wants
+        - Only a line graph is available at the moment and I need to tweek how that works
+        - Plan to add a pie chart that displays sold inventory(price) compare to unsold inventory(price)
+        - Maybe a bar chart that displays weekly,monthly,yearly earnings? unsure at the moment
+    - Added functionality to the queries class allowing it to be able to combine totals and return lists
+      for use in other functions
 

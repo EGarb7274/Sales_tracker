@@ -13,4 +13,11 @@ This will serve as notes thougout the project
         - I belive that most of the framework can be done first and I can select which I want to use at a later date
 - Need to create a database that will last even with the program being closed
     - Might start with SQLite and then move over to postgresql when needed
+- Will have to start looking into what functions I need in terms of infromation
+- Need to look at the webscraper module, it's been a while since it's been used and I need to incoportate it soon
+- Would like to have a working prototype preferable by thursday so I can send it to Aghilles for testing
+  purposes, would give great information into what fucntions might be needed
+    - This will exclude the GUI as it's too much to work with at this point, but that may be a much needed
+      module for actual use
+- Create proper documentation for this programs use until the GUI comes around?
 
