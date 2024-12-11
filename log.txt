@@ -17,4 +17,5 @@ This will serve as the log file for this project
         - Maybe a bar chart that displays weekly,monthly,yearly earnings? unsure at the moment
     - Added functionality to the queries class allowing it to be able to combine totals and return lists
       for use in other functions
-
+12-11-2024
+    - Added the webscraper module

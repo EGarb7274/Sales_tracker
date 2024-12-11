@@ -7,5 +7,5 @@ class watch:
         self.dateB = date_bought
         self.dateS = date_sold
 
-    def estimated_profit(self):
-        self.priceB -
+    def estimated_profit(self, avgSoldPrice):
+        return self.priceB - avgSoldPrice

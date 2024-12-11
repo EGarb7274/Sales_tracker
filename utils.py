@@ -1,8 +1,9 @@
 import matplotlib.pyplot as plt
 from dbQueries import queries
+import sys
 import datetime
 
-class graph:
+class utilities:
     def __init__(self):
         self.database = queries()
 
@@ -13,3 +14,17 @@ class graph:
         x = self.database.get_list_sold()
         plt.plot(x)
         plt.show()
+
+    def masked_inp(self, prompt):
+        print(prompt, end='')
+        password = ""
+        while True:
+            char = sys.stdin.read(1)
+            if char == '\n':
+                break
+            password += '*'
+            sys.stdout.write('*')
+            sys.stdout.flush()
+        print()
+        return password
+
